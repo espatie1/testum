@@ -1,0 +1,2625 @@
+........Testing all protocols: ./ipk-sniffer -i lo --tcp --udp -p 4567 --icmp4 --icmp6 --arp --ndp --igmp --mld -n 8
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+
+Sent 1 packets.
+Length of the frame to be sent: 48
+
+Sent 1 packets.
+Length of the frame to be sent: 28
+
+Sent 1 packets.
+Length of the frame to be sent: 64
+
+Sent 1 packets.
+Length of the frame to be sent: 28
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:18.743+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:19.822+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:20.932+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 42 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mICMP Type: 8
+[0m[34mSTDOUT:[0m [34mICMP Code: 0
+[0m[34mSTDOUT:[0m [34mICMP Echo Request (ping)
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 1c 00 01 00 00 40 01 7c de 7f 00 00 01 7f 00  ......@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 08 00 f7 ff 00 00 00 00                    ..........
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:23.102+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 42 bytes
+[0m[34mSTDOUT:[0m [34mARP Operation: Request
+[0m[34mSTDOUT:[0m [34mSender MAC: 00:00:00:00:00:00, Sender IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mTarget MAC: 00:00:00:00:00:00, Target IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 06 00 01  ................
+[0m[34mSTDOUT:[0m [34m0x0010:  08 00 06 04 00 01 00 00 00 00 00 00 7f 00 00 01  ................
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 00 7f 00 00 01                    ..........
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:24.212+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 78 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: ::1
+[0m[34mSTDOUT:[0m [34mdst IP: ::1
+[0m[34mSTDOUT:[0m [34mIPv6 Next Header: 58
+[0m[34mSTDOUT:[0m [34mICMPv6 Type: 135
+[0m[34mSTDOUT:[0m [34mICMPv6 Code: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 86 dd 60 00  ..............`.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 00 00 18 3a ff 00 00 00 00 00 00 00 00 00 00  ....:...........
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0030:  00 00 00 00 00 01 87 00 78 aa 00 00 00 00 00 00  ........x.......
+[0m[34mSTDOUT:[0m [34m0x0040:  00 00 00 00 00 00 00 00 00 00 00 00 00 01        ..............
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:24.212+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mframe length: 78 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: ::1
+[0m[34mSTDOUT:[0m [34mdst IP: ::1
+[0m[34mSTDOUT:[0m [34mIPv6 Next Header: 58
+[0m[34mSTDOUT:[0m [34mICMPv6 Type: 136
+[0m[34mSTDOUT:[0m [34mICMPv6 Code: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  00 00 00 00 00 00 00 00 00 00 00 00 86 dd 60 00  ..............`.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 00 00 18 3a ff 00 00 00 00 00 00 00 00 00 00  ....:...........
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0030:  00 00 00 00 00 01 88 00 37 aa 40 00 00 00 00 00  ........7.@.....
+[0m[34mSTDOUT:[0m [34m0x0040:  00 00 00 00 00 00 00 00 00 00 00 00 00 01        ..............
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:25.312+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 42 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mIGMP Type: 17
+[0m[34mSTDOUT:[0m [34mIGMP Max Resp Time: 200
+[0m[34mSTDOUT:[0m [34mIGMP Group Address: 0.0.0.0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 1c 00 01 00 00 01 02 bb dd 7f 00 00 01 7f 00  ................
+[0mLength of the frame to be sent: 68
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m0x0020:  00 01 11 c8 ee 37 00 00 00 00                    .....7....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:26.393+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 82 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: ::1
+[0m[34mSTDOUT:[0m [34mdst IP: ::1
+[0m[34mSTDOUT:[0m [34mIPv6 Next Header: 58
+[0m[34mSTDOUT:[0m [34mICMPv6 Type: 143
+[0m[34mSTDOUT:[0m [34mICMPv6 Code: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 86 dd 60 00  ..............`.
+[0m..................[34mSTDOUT:[0m [34m0x0010:  00 00 00 1c 3a 01 00 00 00 00 00 00 00 00 00 00  ....:...........
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0030:  00 00 00 00 00 01 8f 00 6d a3 00 00 00 00 04 00  ........m.......
+[0m[34mSTDOUT:[0m [34m0x0040:  00 00 ff 02 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0050:  00 01                                            ..
+[0mTesting arguments: ./ipk-sniffer -i eth0 --tcp -p 80 and ./ipk-sniffer --tcp -p 80 -i eth0
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Testing ARP: ./ipk-sniffer -i lo --arp
+Length of the frame to be sent: 28
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:42.872+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 42 bytes
+[0m[34mSTDOUT:[0m [34mARP Operation: Request
+[0m[34mSTDOUT:[0m [34mSender MAC: 00:00:00:00:00:00, Sender IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mTarget MAC: 00:00:00:00:00:00, Target IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 06 00 01  ................
+[0m[34mSTDOUT:[0m [34m0x0010:  08 00 06 04 00 01 00 00 00 00 00 00 7f 00 00 01  ................
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 00 7f 00 00 01                    ..........
+[0mTesting CTRL+C: ./ipk-sniffer -i lo --tcp
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:46.490+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mframe length: 81 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 32825
+[0m[34mSTDOUT:[0m [34mdst port: 47798
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  00 00 00 00 00 00 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 43 c7 12 40 00 40 06 75 a0 7f 00 00 01 7f 00  .C..@.@.u.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 80 39 ba b6 da 7b 0b c4 0d 37 c2 c0 80 18  ...9...{...7....
+[0m[34mSTDOUT:[0m [34m0x0030:  02 00 fe 37 00 00 01 01 08 0a 01 97 ea 93 01 97  ...7............
+[0m[34mSTDOUT:[0m [34m0x0040:  e1 d4 82 0d 09 00 00 00 00 00 00 43 f8 00 00 00  ...........C....
+[0m[34mSTDOUT:[0m [34m0x0050:  00                                               .
+[0mTesting high number of packets: ./ipk-sniffer -i lo --tcp --udp -p 4567 -n 100
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:50.972+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:51.074+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:51.172+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:51.312+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:51.413+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m........... [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:51.512+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:51.613+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0mLength of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:51.692+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:51.802+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:51.883+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:51.974+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:52.094+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:52.193+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:52.273+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:52.373+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:52.453+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:52.553+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:52.632+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:52.723+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m...........[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:52.793+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:52.893+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:52.963+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:53.072+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:53.143+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:53.262+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:53.372+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m............[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:53.463+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:53.542+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:53.642+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:53.712+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:53.803+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:53.893+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:54.013+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m..........
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:54.112+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:54.212+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:54.292+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:54.403+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:54.482+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:54.582+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0mLength of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:54.662+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:54.772+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:54.853+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:54.952+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:55.022+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:55.123+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:55.202+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:55.313+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:55.413+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m........... [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:55.522+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:55.602+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:55.742+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0mLength of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:55.823+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:55.942+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:56.032+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:56.132+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:56.222+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:56.323+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:56.432+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:56.532+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:56.602+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:56.702+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:56.793+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:56.883+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m...........[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:56.953+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:57.032+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:57.112+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:57.243+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:57.323+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:57.462+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:57.552+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m......Length of the frame to be sent: 37
+ [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:57.652+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:57.733+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:57.843+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:57.922+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:58.023+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:58.103+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:58.203+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent:................ 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:58.293+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:58.403+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:58.483+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:58.583+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:58.662+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:58.783+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0mLength of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:58.892+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:58.983+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:59.062+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:59.163+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:59.243+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:59.343+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:59.432+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:59.563+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m. [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:59.633+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:59.733+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:59.822+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:17:59.922+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:00.013+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0mLength of the frame to be sent: 37
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:00.113+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:00.192+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:00.302+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m ............[34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:00.392+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0mTesting ICMPv4: ./ipk-sniffer -i lo --icmp4
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:06.493+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 42 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mICMP Type: 8
+[0m[34mSTDOUT:[0m [34mICMP Code: 0
+[0m[34mSTDOUT:[0m [34mICMP Echo Request (ping)
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 1c 00 01 00 00 40 01 7c de 7f 00 00 01 7f 00  ......@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 08 00 f7 ff 00 00 00 00                    ..........
+[0mTesting ICMPv6: ./ipk-sniffer -i lo --icmp6
+Length of the frame to be sent: 48
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:10.583+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 62 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: ::1
+[0m[34mSTDOUT:[0m [34mdst IP: ::1
+[0m[34mSTDOUT:[0m [34mIPv6 Next Header: 58
+[0m[34mSTDOUT:[0m [34mICMPv6 Type: 128
+[0m[34mSTDOUT:[0m [34mICMPv6 Code: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 86 dd 60 00  ..............`.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 00 00 08 3a 40 00 00 00 00 00 00 00 00 00 00  ....:@..........
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0030:  00 00 00 00 00 01 80 00 7f bb 00 00 00 00        ..............
+[0mTesting ICMPv6 2: ./ipk-sniffer -i lo --icmp6
+Length of the frame to be sent: 59
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:14.672+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 73 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: ::1
+[0m[34mSTDOUT:[0m [34mdst IP: ::1
+[0m[34mSTDOUT:[0m [34mIPv6 Next Header: 58
+[0m[34mSTDOUT:[0m [34mICMPv6 Type: 128
+[0m[34mSTDOUT:[0m [34mICMPv6 Code: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 86 dd 60 00  ..............`.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 00 00 13 3a 40 00 00 00 00 00 00 00 00 00 00  ....:@..........
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0030:  00 00 00 00 00 01 80 00 7b 37 00 00 00 00 48 65  ........{7....He
+[0m[34mSTDOUT:[0m [34m0x0040:  6c 6c 6f 20 49 50 76 36 21                       llo IPv6!
+[0mTesting IGMP: ./ipk-sniffer -i lo --igmp
+Length of the frame to be sent: 28
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:18.782+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 42 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mIGMP Type: 17
+[0m[34mSTDOUT:[0m [34mIGMP Max Resp Time: 200
+[0m[34mSTDOUT:[0m [34mIGMP Group Address: 0.0.0.0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 1c 00 01 00 00 01 02 bb dd 7f 00 00 01 7f 00  ................
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 11 c8 ee 37 00 00 00 00                    .....7....
+[0mTesting invalid arguments: ./ipk-sniffer -i fake0 --tcp -p 99999
+[35mSTDERR:[0m [35mCould not open device fake0: fake0: No such device exists (SIOCGIFHWADDR: No such device)
+[0mTesting max port: ./ipk-sniffer -i lo --udp --tcp -p 65535 -n 2
+Length of the frame to be sent: 41
+
+Sent 1 packets.
+Length of the frame to be sent: 77
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:24.902+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 55 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 65535
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 29 00 01 00 00 40 11 7c c1 7f 00 00 01 7f 00  .)....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 ff ff 00 15 34 a5 54 65 73 74 20 55  ...5....4.Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 36 35 35 33 35                             DP65535
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:25.993+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 91 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 65535
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4d 00 01 00 00 40 06 7c a8 7f 00 00 01 7f 00  .M....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 ff ff 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 91 22 00 00 36 35 35 33 35 20 2f 20 48 54   .."..65535 / HT
+[0m[34mSTDOUT:[0m [34m0x0040:  54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f  TP/1.1..Host: lo
+[0m............[34mSTDOUT:[0m [34m0x0050:  63 61 6c 68 6f 73 74 0d 0a 0d 0a                 calhost....
+[0mTesting min port: ./ipk-sniffer -i lo --udp --tcp -p 0 -n 2
+Length of the frame to be sent: 41
+
+Sent 1 packets.
+Length of the frame to be sent: 79
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:32.072+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 55 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 29 00 01 00 00 40 11 7c c1 7f 00 00 01 7f 00  .)....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 00 00 00 15 34 a5 54 65 73 74 20 55  ...5....4.Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 36 35 35 33 35                             DP65535
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:33.153+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 93 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4f 00 01 00 00 40 06 7c a6 7f 00 00 01 7f 00  .O....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 00 00 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 fc b4 00 00 4d 49 4e 49 4d 41 4c 20 2f 20   .....MINIMAL / 
+[0m[34mSTDOUT:[0m [34m0x0040:  48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20  HTTP/1.1..Host: 
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 6f 63 61 6c 68 6f 73 74 0d 0a 0d 0a           localhost....
+[0mTesting MLD: ./ipk-sniffer -i lo --mld
+Length of the frame to be sent: 68
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:39.262+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 82 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: ::1
+[0m[34mSTDOUT:[0m [34mdst IP: ::1
+[0m[34mSTDOUT:[0m [34mIPv6 Next Header: 58
+[0m[34mSTDOUT:[0m [34mICMPv6 Type: 143
+[0m[34mSTDOUT:[0m [34mICMPv6 Code: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 86 dd 60 00  ..............`.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 00 00 1c 3a 01 00 00 00 00 00 00 00 00 00 00  ....:...........
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0030:  00 00 00 00 00 01 8f 00 6d a3 00 00 00 00 04 00  ........m.......
+[0m[34mSTDOUT:[0m [34m0x0040:  00 00 ff 02 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0050:  00 01                                            ..
+[0mTesting NDP: ./ipk-sniffer -i lo --ndp
+Length of the frame to be sent: 64
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:43.343+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 78 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: ::1
+[0m[34mSTDOUT:[0m [34mdst IP: ::1
+[0m[34mSTDOUT:[0m [34mIPv6 Next Header: 58
+[0m[34mSTDOUT:[0m [34mICMPv6 Type: 135
+[0m[34mSTDOUT:[0m [34mICMPv6 Code: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 86 dd 60 00  ..............`.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 00 00 18 3a ff 00 00 00 00 00 00 00 00 00 00  ....:...........
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0030:  00 00 00 00 00 01 87 00 78 aa 00 00 00 00 00 00  ........x.......
+[0m[34mSTDOUT:[0m [34m0x0040:  00 00 00 00 00 00 00 00 00 00 00 00 00 01        ..............
+[0mTesting NDP 2: ./ipk-sniffer -i lo --ndp
+Length of the frame to be sent: 48
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:47.442+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 62 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: ::1
+[0m[34mSTDOUT:[0m [34mdst IP: ::1
+[0m[34mSTDOUT:[0m [34mIPv6 Next Header: 58
+[0m[34mSTDOUT:[0m [34mICMPv6 Type: 133
+[0m[34mSTDOUT:[0m [34mICMPv6 Code: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 86 dd 60 00  ..............`.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 00 00 08 3a ff 00 00 00 00 00 00 00 00 00 00  ....:...........
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0030:  00 00 00 00 00 01 85 00 7a bb 00 00 00 00        ........z.....
+[0mTesting NDP and MLD: ./ipk-sniffer -i lo --ndp --mld -n 2
+Length of the frame to be sent: 64
+
+Sent 1 packets.
+Length of the frame to be sent: 68
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:51.533+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 78 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: ::1
+[0m[34mSTDOUT:[0m [34mdst IP: ::1
+[0m[34mSTDOUT:[0m [34mIPv6 Next Header: 58
+[0m[34mSTDOUT:[0m [34mICMPv6 Type: 135
+[0m[34mSTDOUT:[0m [34mICMPv6 Code: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 86 dd 60 00  ..............`.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 00 00 18 3a ff 00 00 00 00 00 00 00 00 00 00  ....:...........
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0030:  00 00 00 00 00 01 87 00 78 aa 00 00 00 00 00 00  ........x.......
+[0m[34mSTDOUT:[0m [34m0x0040:  00 00 00 00 00 00 00 00 00 00 00 00 00 01        ..............
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:18:51.533+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mframe length: 78 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: ::1
+[0m[34mSTDOUT:[0m [34mdst IP: ::1
+[0m[34mSTDOUT:[0m [34mIPv6 Next Header: 58
+[0m[34mSTDOUT:[0m [34mICMPv6 Type: 136
+[0m[34mSTDOUT:[0m [34mICMPv6 Code: 0
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  00 00 00 00 00 00 00 00 00 00 00 00 86 dd 60 00  ..............`.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 00 00 18 3a ff 00 00 00 00 00 00 00 00 00 00  ....:...........
+[0m[34mSTDOUT:[0m [34m0x0020:  00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00  ................
+[0m[34mSTDOUT:[0m [34m0x0030:  00 00 00 00 00 01 88 00 37 aa 40 00 00 00 00 00  ........7.@.....
+[0m..........[34mSTDOUT:[0m [34m0x0040:  00 00 00 00 00 00 00 00 00 00 00 00 00 01        ..............
+[0mTesting no arguments: ./ipk-sniffer
+[35mSTDERR:[0m [35mNo interface specified.
+[0m[34mSTDOUT:[0m [34mUsage: ./ipk-sniffer [-i interface | --interface interface] [--port-source port] [--port-destination port] [--tcp] [--udp] [--arp] [--ndp] [--icmp4] [--icmp6] [--igmp] [--mld] [-n num]
+[0m[34mSTDOUT:[0m [34mOptions:
+[0m[34mSTDOUT:[0m [34m  -i, --interface       Specify the interface to capture packets on
+[0m[34mSTDOUT:[0m [34m  --port-source         Specify the source port to filter packets
+[0m[34mSTDOUT:[0m [34m  --port-destination    Specify the destination port to filter packets
+[0m[34mSTDOUT:[0m [34m  --tcp                 Capture only TCP packets
+[0m[34mSTDOUT:[0m [34m  --udp                 Capture only UDP packets
+[0m[34mSTDOUT:[0m [34m  --arp                 Capture only ARP frames
+[0m[34mSTDOUT:[0m [34m  --ndp                 Capture only NDP packets
+[0m[34mSTDOUT:[0m [34m  --icmp4               Capture only ICMPv4 packets
+[0m[34mSTDOUT:[0m [34m  --icmp6               Capture only ICMPv6 packets
+[0m[34mSTDOUT:[0m [34m  --igmp                Capture only IGMP packets
+[0m[34mSTDOUT:[0m [34m  --mld                 Capture only MLD packets
+[0m[34mSTDOUT:[0m [34m  -n num                Number of packets to capture
+[0mTesting port source: ./ipk-sniffer -i lo --tcp --port-source 80 --port-destination 80
+Length of the frame to be sent: 74
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:19:02.743+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 88 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 80
+[0m[34mSTDOUT:[0m [34mdst port: 80
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4a 00 01 00 00 40 06 7c ab 7f 00 00 01 7f 00  .J....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 50 00 50 00 00 00 00 00 00 00 00 50 02  ...P.P........P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 3c 8e 00 00 38 30 20 2f 20 48 54 54 50 2f   .<...80 / HTTP/
+[0m[34mSTDOUT:[0m [34m0x0040:  31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61 6c  1.1..Host: local
+[0m[34mSTDOUT:[0m [34m0x0050:  68 6f 73 74 0d 0a 0d 0a                          host....
+[0mTesting TCP: ./ipk-sniffer -i lo --tcp -p 4567
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:19:06.823+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0mTesting two (UDP and TCP): ./ipk-sniffer -i lo --tcp --udp -p 4567 -n 2
+Length of the frame to be sent: 75
+
+Sent 1 packets.
+Length of the frame to be sent: 37
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:19:11.903+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 89 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: TCP
+[0m[34mSTDOUT:[0m [34msrc port: 20
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+[0m[34mSTDOUT:[0m [34m0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+[0m[34mSTDOUT:[0m [34m0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+[0m[34mSTDOUT:[0m [34m0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:19:11.973+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 51 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 4567
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50 32                                         DP2
+[0mCaptured output: 
+------------------------------------------------------------------------------
+timestamp: 2024-04-22T19:19:11.903+02:00
+src MAC: 00:00:00:00:00:00
+dst MAC: ff:ff:ff:ff:ff:ff
+frame length: 89 bytes
+src IP: 127.0.0.1
+dst IP: 127.0.0.1
+protocol: TCP
+src port: 20
+dst port: 4567
+
+0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+0x0010:  00 4b 00 01 00 00 40 06 7c aa 7f 00 00 01 7f 00  .K....@.|.......
+0x0020:  00 01 00 14 11 d7 00 00 00 00 00 00 00 00 50 02  ..............P.
+0x0030:  20 00 84 70 00 00 47 45 54 20 2f 20 48 54 54 50   ..p..GET / HTTP
+0x0040:  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61  /1.1..Host: loca
+0x0050:  6c 68 6f 73 74 0d 0a 0d 0a                       lhost....
+
+------------------------------------------------------------------------------
+timestamp: 2024-04-22T19:19:11.973+02:00
+src MAC: 00:00:00:00:00:00
+dst MAC: ff:ff:ff:ff:ff:ff
+frame length: 51 bytes
+src IP: 127.0.0.1
+dst IP: 127.0.0.1
+protocol: UDP
+src port: 53
+dst port: 4567
+
+0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+0x0010:  00 25 00 01 00 00 40 11 7c c5 7f 00 00 01 7f 00  .%....@.|.......
+0x0020:  00 01 00 35 11 d7 00 11 91 3e 54 65 73 74 20 55  ...5.....>Test U
+0x0030:  44 50 32                                         DP2
+
+Testing UDP: ./ipk-sniffer -i lo --udp -p 12345
+Length of the frame to be sent: 36
+
+Sent 1 packets.
+[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m------------------------------------------------------------------------------
+[0m[34mSTDOUT:[0m [34mtimestamp: 2024-04-22T19:19:18.052+02:00
+[0m[34mSTDOUT:[0m [34msrc MAC: 00:00:00:00:00:00
+[0m[34mSTDOUT:[0m [34mdst MAC: ff:ff:ff:ff:ff:ff
+[0m[34mSTDOUT:[0m [34mframe length: 50 bytes
+[0m[34mSTDOUT:[0m [34msrc IP: 127.0.0.1
+[0m[34mSTDOUT:[0m [34mdst IP: 127.0.0.1
+[0m.
+----------------------------------------------------------------------
+Ran 21 tests in 123.416s
+
+OK
+[34mSTDOUT:[0m [34mprotocol: UDP
+[0m[34mSTDOUT:[0m [34msrc port: 53
+[0m[34mSTDOUT:[0m [34mdst port: 12345
+[0m[34mSTDOUT:[0m [34m
+[0m[34mSTDOUT:[0m [34m0x0000:  ff ff ff ff ff ff 00 00 00 00 00 00 08 00 45 00  ..............E.
+[0m[34mSTDOUT:[0m [34m0x0010:  00 24 00 01 00 00 40 11 7c c6 7f 00 00 01 7f 00  .$....@.|.......
+[0m[34mSTDOUT:[0m [34m0x0020:  00 01 00 35 30 39 00 10 a4 de 54 65 73 74 20 55  ...509....Test U
+[0m[34mSTDOUT:[0m [34m0x0030:  44 50                                            DP
+[0m
